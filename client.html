@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="input">
+			<input type="text" id="fid" class="inputbaritem" placeholder="Enter ID or Click Fish" tabindex="1"></input>
+			<input type="text" id="fname" class="inputbaritem" placeholder="Name" tabindex="2"></input>
+			<input type="text" id="fwidth" class="inputbaritem" placeholder="Width" tabindex="3"></input>
+			<input type="text" id="fheight" class="inputbaritem" placeholder="Height"tabindex="4"></input>
+			<input type="text" id="fleft" class="inputbaritem" placeholder="X-Pos"tabindex="5"></input>
+			<input type="text" id="ftop" class="inputbaritem" placeholder="Y-Pos"tabindex="6"></input>
+			<select id="fcolor" class="inputbaritem" tabindex="7">
+				<option value="">--Select Color--</option>
+				<option value="black">Black</option>
+				<option value="grey">Grey</option>
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+			</select>
+			<select id="faction" class="inputbaritem" tabindex="8">
+				<option value="">--Select Action--</option>
+				<option value="getall">View All Fish</option>
+				<option value="getone">View One Fish</option>
+				<option value="post">Add A Fish</option>
+				<option value="put">Update A Fish</option>
+				<option value="delete">Delete A Fish</option>
+				
+			</select>
+			<button id="addfish" class="inputbaritem" tabindex="9">Update Tank</button>
+		</div>
+		<div id="fishtank"></div>
+		<div id="clear"></div>
+		<script src="ftscript.js"></script>
+		
+	</body>
+</html>
